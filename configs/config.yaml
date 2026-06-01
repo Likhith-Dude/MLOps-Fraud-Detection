@@ -1,0 +1,38 @@
+defaults:
+  - _self_
+
+project:
+  name: fraud-detection
+  version: "1.0.0"
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  features_dir: data/features
+  train_file: transactions_train.parquet
+  test_file: transactions_test.parquet
+
+features:
+  velocity_windows: ["1h", "24h"]
+  categorical_cols: ["merchant_id", "merchant_category"]
+
+model:
+  experiment_name: fraud-detection
+  params:
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.05
+  threshold: 0.5
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  model_name: fraud-detector
+
+monitoring:
+  drift_threshold: 0.1
+  report_output_dir: docs/reports

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Data (never commit raw data)
+data/raw/
+data/processed/
+data/features/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+coverage.xml
+*.cover
+
+# OS
+.DS_Store
+Thumbs.db
