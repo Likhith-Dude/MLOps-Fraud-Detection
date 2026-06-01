@@ -2,7 +2,7 @@
 
 An end-to-end MLOps pipeline for real-time credit card fraud detection — from raw data ingestion through feature engineering, model training, REST API serving, and production monitoring.
 
-[![CI](https://github.com/your-username/MLOps-Fraud-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/MLOps-Fraud-Detection/actions/workflows/ci.yml)
+[![CI](https://github.com/Likhith-Dude/MLOps-Fraud-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/Likhith-Dude/MLOps-Fraud-Detection/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![XGBoost](https://img.shields.io/badge/model-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
 [![MLflow](https://img.shields.io/badge/tracking-MLflow-0194E2.svg)](https://mlflow.org/)
@@ -91,7 +91,7 @@ MLOps-Fraud-Detection/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/your-username/MLOps-Fraud-Detection.git
+git clone https://github.com/Likhith-Dude/MLOps-Fraud-Detection.git
 cd MLOps-Fraud-Detection
 pip install -r requirements.txt
 ```
